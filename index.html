@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Kerri | Responsive Bootstrap 4 Personal Template</title>
+        <title>masatodejima.com</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta name="author" content="SRBThemes" />
 
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/logo-white.png">
 
         <!--Bootstrap Css-->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -42,11 +42,13 @@
 
         <!-- Start Navbar -->
     	<nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+            <!-- sticky classはなに -->
             <div class="container">
 
                 <a class="navbar-brand pt-0 logo" href="#">
-                    <img src="images/logo.png" alt="" class="img-fluid logo-light">
-                    <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark">
+                    <img src="images/logo-white.png" alt="" class="img-fluid logo-light">
+                    <img src="images/logo-black.png" alt="" class="img-fluid logo-dark">
+                    <!-- 黒字のロゴと白地のロゴ -->
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,16 +85,18 @@
         <!-- End Navbar -->
 
         <!-- START HOME -->
-        <section class="section header-bg-img h-100vh" id="home">
+        <section class="section header-bg-img h-100vh clippath_none" id="home">
             <div class="bg-overlay"></div>
             <div class="header-table">
                 <div class="header-table-center">
-                    <div class="container">
+                    <div class="container position-relative z-index">
                         <div class="row justify-content-center">
                             <div class="col-lg-12">
                                 <div class="text-center header-content mx-auto">
                                     <h4 class="text-white first-title mb-4">Welcome</h4>
-                                    <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="element font-weight-bold" data-elements="Kerri Deo.,A Graphic Designer.,A Photographer."></span></h1>
+                                    <h1 class="header-name text-white mb-0">I'M masatodejima
+                                        <!-- <span class="element font-weight-bold" data-elements="masatodejima.,A Graphic Designer.,A Photographer."></span> -->
+                                    </h1>
                                     <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                                     <div class="mt-4 pt-2">
                                         <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
@@ -109,16 +113,17 @@
         <!-- START ABOUT -->
         <section class="section" id="about">
             <div class="container">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col-lg-6">
                         <div class="mt-3">
-                            <img src="images/about.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+                            <img src="images/S__11100178.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail img-trimming">
+                            <!-- img-thumbnail→枠 -->
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="mt-3">
                             <h2><span class="font-weight-bold">About</span> Me</h2>
-                            <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M Kerri Deo.</span></h4>
+                            <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M masatodejima</span></h4>
                             <p class="text-muted mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
                             <p class="text-muted mt-2">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                             <p class="text-muted mt-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
@@ -606,10 +611,11 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <!-- TYPED -->
         <script src="js/typed.js"></script>
+        <!--PARTICLES ANIMATE JS-->
+        <script src="js/particles.js"></script>  
+        <script src="js/particles.app.js"></script> 
         <!-- OWL CAROUSEL -->
         <script src="js/owl.carousel.min.js"></script>
-        <!-- CONTACT JS -->
-        <script src="js/contact.js"></script>
         <!--CUSTOM JS-->
         <script src="js/custom.js"></script>
     </body>

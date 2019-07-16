@@ -223,13 +223,15 @@ button:focus {
 ============================*/
 
 .custom-nav {
-    background-color: transparent;
-    padding: 20px 0px;
+    background-color:transparent;
+    /* background-colorはtransparent(透明)がdefault */
+    padding: 0.6rem 0 0 0 ;
     width: 100%;
     border-radius: 0px;
     z-index: 999;
     margin-bottom: 0px;
     transition: all 0.5s ease-in-out;
+    /* 変化の時のやつ、ease-in-outはゆっくり始めってゆっくり終わる */
 }
 
 .custom-nav .navbar-nav li a {
@@ -244,7 +246,7 @@ button:focus {
 }
 
 .custom-nav .navbar-brand .logo-light,.custom-nav .navbar-brand .logo-dark {
-    height: 27px;
+    height: 4rem;
 }
 
 .logo .logo-light {
@@ -256,6 +258,7 @@ button:focus {
 }
 
 .stickyadd .logo .logo-light {
+    /* javascript addclass */
   display:none;
 }
 
@@ -269,6 +272,7 @@ button:focus {
 }
 
 .custom-nav .navbar-toggler {
+    /* プルダウンのボタン */
     color: #fff;
     font-size: 35px;
     padding: 0px;
@@ -286,7 +290,7 @@ button:focus {
 .custom-nav.stickyadd {
     background-color: #fff  !important;
     box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.050980392156862744);
-    padding: 15px 0px;
+    padding: 0.6rem 0 0 0 ;
 }
 
 .custom-nav.stickyadd .navbar-nav li a {
@@ -298,7 +302,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(../images/louie-martinez-447964-unsplash2.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -350,6 +354,10 @@ button:focus {
 .about-social li a:hover {
     color: #e65f78;
     border-color: #e65f78;
+}
+
+.img-trimming {
+    
 }
 
 /*===========================
@@ -608,7 +616,10 @@ button:focus {
 @media (min-width: 200px) and (max-width: 768px) {
     .custom-nav {
         background-color: #fff !important;
-        padding: 10px 0px !important;
+        padding: 0.3rem 0 0 0 !important;
+    }
+    .custom-nav .navbar-brand .logo-dark {
+        height: 2.7rem;
     }
     .custom-nav .container {
         width: 85%;
