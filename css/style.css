@@ -402,11 +402,17 @@ button:focus {
     font-size: 15px;
 }
 
+.services-emphasize {
+    font-size:20px;
+}
+.services-emphasize span {
+    color:#e65f78!important;
+}
 /*===========================
         7.CLIENT
 =============================*/
 
-.testi_boxes {
+/* .testi_boxes {
     max-width:750px;
 }
 
@@ -442,7 +448,7 @@ button:focus {
 
 .owl-theme .owl-controls .owl-page.active span {
     width: 20px;
-}        
+}         */
 
 /*===========================
         8.WORK
@@ -607,8 +613,12 @@ button:focus {
     font-size: 18px;
     line-height: 42px;
     text-align: center;
+    transition: all 0.5s;
 }
-
+.footer .footer-alt ul li a:hover{
+    background-color: #e65f78;
+    opacity: 0.4;
+}
 /*===========================
         11.RESPONSIVE
 =============================*/
