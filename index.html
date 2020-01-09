@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>masatodejima.com</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="SRBThemes" />
 
-    <link rel="shortcut icon" href="images/logo-white.png">
+    <link rel="shortcut icon" href="images/logo-white.png" />
 
     <!--Bootstrap Css-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 
     <!-- Materialdesign icons Css -->
-    <link href="css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" />
 
     <!-- Mobirise icons Css -->
-    <link href="css/mobiriseicons.css" rel="stylesheet">
+    <link href="css/mobiriseicons.css" rel="stylesheet" />
 
     <!-- Magnific-popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
     <!-- OWL SLIDER -->
     <link rel="stylesheet" href="css/owl.carousel.css" />
@@ -29,128 +28,164 @@
     <link rel="stylesheet" href="css/owl.transitions.css" />
 
     <!-- Custom style Css -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Loader -->
     <div id="preloader">
-        <div id="status">
-            <div class="spinner">Loading...</div>
-        </div>
+      <div id="status">
+        <div class="spinner">Loading...</div>
+      </div>
     </div>
 
     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-        <!-- sticky classはなに -->
-        <div class="container">
+      <!-- sticky classはなに -->
+      <div class="container">
+        <a class="navbar-brand pt-0 logo" href="#">
+          <img
+            src="images/logo-white.png"
+            alt=""
+            class="img-fluid logo-light"
+          />
+          <img src="images/logo-black.png" alt="" class="img-fluid logo-dark" />
+          <!-- 黒字のロゴと白地のロゴ -->
+        </a>
 
-            <a class="navbar-brand pt-0 logo" href="#">
-                <img src="images/logo-white.png" alt="" class="img-fluid logo-light">
-                <img src="images/logo-black.png" alt="" class="img-fluid logo-dark">
-                <!-- 黒字のロゴと白地のロゴ -->
-            </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="mdi mdi-menu"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="mdi mdi-menu"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <!-- <li class="nav-item">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <!-- <li class="nav-item">
                         <a class="nav-link" href="#client">Client</a>
                     </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Works</a>
-                    </li>
-                    <!-- <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Works</a>
+            </li>
+            <!-- <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
                     </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- End Navbar -->
 
     <!-- START HOME -->
     <section class="section header-bg-img h-100vh clippath_none" id="home">
-        <div class="bg-overlay"></div>
-        <div class="header-table">
-            <div class="header-table-center">
-                <div class="container position-relative z-index">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="text-center header-content mx-auto">
-                                <h4 class="text-white first-title mb-4">Welcome</h4>
-                                <h1 class="header-name text-white mb-0">masatodejima.com
-                                    <!-- <span class="element font-weight-bold" data-elements="masatodejima.,A Graphic Designer.,A Photographer."></span> -->
-                                </h1>
-                                <p class="text-white mx-auto header-desc mt-4">
-                                    masatodejimaのポートフォリオサイトです。<br>web制作のお仕事のご依頼は以下から。</p>
-                                <div class="mt-4 pt-2">
-                                    <a href="#contact" class="btn btn-outline-custom btn-round">Contact Me</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="bg-overlay"></div>
+      <div class="header-table">
+        <div class="header-table-center">
+          <div class="container position-relative z-index">
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <div class="text-center header-content mx-auto">
+                  <h4 class="text-white first-title mb-4">Welcome</h4>
+                  <h1 class="header-name text-white mb-0">
+                    masatodejima.com
+                    <!-- <span class="element font-weight-bold" data-elements="masatodejima.,A Graphic Designer.,A Photographer."></span> -->
+                  </h1>
+                  <p class="text-white mx-auto header-desc mt-4">
+                    masatodejimaのポートフォリオサイトです。<br />web制作のお仕事のご依頼は以下から。
+                  </p>
+                  <div class="mt-4 pt-2">
+                    <a href="#contact" class="btn btn-outline-custom btn-round"
+                      >Contact Me</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- END HOME -->
 
     <!-- START ABOUT -->
     <section class="section" id="about">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-6">
-                    <div class="mt-3">
-                        <img src="images/my_profile.JPG" alt=""
-                            class="img-fluid mx-auto d-block img-thumbnail img-trimming">
-                        <!-- img-thumbnail→枠 -->
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="mt-3">
-                        <h2><span class="font-weight-bold">About</span> Me</h2>
-                        <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M masatodejima</span></h4>
-                        <p class="text-muted mt-4">関東出身、関東在住の22歳Web系エンジニア。HTML・CSS・JavaScript・WordPressが専門です。</p>
-                        <p class="text-muted mt-2">大学で経済学を学ぶ傍でWeb制作を勉強中。</p>
-                        <p class="text-muted mt-2"><a
-                                href="https://tokyofreelance.jp/">東京フリーランス</a>のフリーランスコミュニティ『東フリサロン』に所属しています。</p>
-                        <div>
-                            <ul class="mb-0 about-social list-inline mt-4">
-                                <li class="list-inline-item"><a href="https://github.com/masatodejima0413"
-                                        target="_blank"><i class="mdi mdi-github-box"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+            <div class="mt-3">
+              <img
+                src="images/my_profile.JPG"
+                alt=""
+                class="img-fluid mx-auto d-block img-thumbnail img-trimming"
+              />
+              <!-- img-thumbnail→枠 -->
             </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-3">
+              <h2><span class="font-weight-bold">About</span> Me</h2>
+              <h4 class="mt-4">
+                Hello!
+                <span class="text-custom font-weight-bold"
+                  >I'M masatodejima</span
+                >
+              </h4>
+              <p class="text-muted mt-4">
+                関東出身、関東在住の22歳Web系エンジニア。HTML・CSS・JavaScript・React・WordPressが専門です。
+              </p>
+              <p class="text-muted mt-2">
+                大学で経済学を学ぶ傍でWeb制作を勉強中。
+              </p>
+              <p class="text-muted mt-2">
+                <a href="https://tokyofreelance.jp/">東京フリーランス</a
+                >のフリーランスコミュニティ『東フリサロン』に所属しています。
+              </p>
+              <div>
+                <ul class="mb-0 about-social list-inline mt-4">
+                  <li class="list-inline-item">
+                    <a
+                      href="https://github.com/masatodejima0413"
+                      target="_blank"
+                      ><i class="mdi mdi-github-box"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="mdi mdi-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="mdi mdi-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- END ABOUT -->
 
     <!-- START SERVICES -->
     <section class="section bg-light" id="services">
-        <div class="container">
-            <!-- <div class="row justify-content-center">
+      <div class="container">
+        <!-- <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="text-center">
                             <h2>Our <span class="font-weight-bold">Services</span></h2>
@@ -158,31 +193,33 @@
                         </div>
                     </div>
                 </div> -->
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="text-center">
-                        <h2>My <span class="font-weight-bold">Service</span></h2>
-                        <p class="text-muted mx-auto section-subtitle mt-3">サービスの詳細、お仕事のご依頼は<a href="#contact">こちら</a>から
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="text-center services-boxes rounded p-4 mt-4">
-                        <div class="services-boxes-icon">
-                            <i class="mbri-desktop text-custom display-4 px-1"></i>
-                            <i class="mbri-tablet-vertical text-custom display-4 px-1"></i>
-                        </div>
-                        <div class="mt-4">
-                            <h4 class="mb-0">LP制作</h4>
-                            <div class="services-title-border"></div>
-                            <p class="text-muted mt-3 services-emphasize">
-                                <span>料金</span>:2万円~<br><span>納期目安</span>:2週間以内</p>
-                            <p class="text-muted mt-3">レスポンシブ対応可</p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="text-center">
+              <h2>My <span class="font-weight-bold">Service</span></h2>
+              <p class="text-muted mx-auto section-subtitle mt-3">
+                サービスの詳細、お仕事のご依頼は<a href="#contact">こちら</a
+                >から
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-center services-boxes rounded p-4 mt-4">
+              <div class="services-boxes-icon">
+                <i class="mbri-desktop text-custom display-4 px-1"></i>
+                <i class="mbri-tablet-vertical text-custom display-4 px-1"></i>
+              </div>
+              <div class="mt-4">
+                <h4 class="mb-0">LP制作</h4>
+                <div class="services-title-border"></div>
+                <p class="text-muted mt-3 services-emphasize">
+                  <span>料金</span>:2万円~<br /><span>納期目安</span>:2週間以内
+                </p>
+                <p class="text-muted mt-3">レスポンシブ対応可</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-4">
                         <div class="text-center services-boxes rounded p-4 mt-4">
                             <div class="services-boxes-icon">
                                 <i class="mbri-growing-chart text-custom display-4"></i>
@@ -254,8 +291,8 @@
                             </div>
                         </div>
                     </div> -->
-            </div>
         </div>
+      </div>
     </section>
     <!-- END SERVICES -->
 
@@ -335,93 +372,119 @@
 
     <!--START WORK -->
     <section class="section text-center" id="work">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h2>My <span class="font-weight-bold">Works</span></h2>
-                        <p class="text-muted mx-auto section-subtitle mt-3">過去の制作実績を一部ご紹介致します。</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <h2>My <span class="font-weight-bold">Works</span></h2>
+              <p class="text-muted mx-auto section-subtitle mt-3">
+                過去の制作実績を一部ご紹介致します。
+              </p>
             </div>
-            <div class="row mt-5 ">
-                <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
-                    <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
-                    <!-- <li class="list-inline-item"><a class="" data-filter=".seo">Seo</a></li> -->
-                    <!-- <li class="list-inline-item"><a class="" data-filter=".webdesign">Webdesign</a></li> -->
-                    <!-- <li class="list-inline-item"><a class="" data-filter=".WORK">WORK</a></li> -->
-                    <!-- <li class="list-inline-item"><a class="" data-filter=".wordpress">Wordpress</a></li> -->
-                    <li class="list-inline-item"><a class="" data-filter=".web">web関連</a>
-                    <li class="list-inline-item"><a class="" data-filter=".tool">ツール</a>
-                    <li class="list-inline-item"><a class="" data-filter=".game">ゲーム</a>
-                </ul>
-            </div>
+          </div>
         </div>
-        <div class="container">
-            <div class="row mt-4 work-filter">
-                <div class="col-lg-4 work_item web">
-                    <a href="images/works/screencapture-127-0-0-1-5500-index-html-2019-07-21-02_58_51.png"
-                        class="img-zoom">
-                        <div class="work_box">
-                            <div class="work_img">
-                                <img src="images/works/LP1.png" class="img-fluid mx-auto d-block rounded"
-                                    alt="work-img">
-                            </div>
-                            <div class="work_detail">
-                                <p class="mb-2">Web</p>
-                                <h4 class="mb-0">masatodejima.com</h4>
-                            </div>
-                        </div>
-                    </a>
+        <div class="row mt-5 ">
+          <ul
+            class="col list-unstyled list-inline mb-0 text-uppercase work_menu"
+            id="menu-filter"
+          >
+            <li class="list-inline-item">
+              <a class="active" data-filter="*">All</a>
+            </li>
+            <!-- <li class="list-inline-item"><a class="" data-filter=".seo">Seo</a></li> -->
+            <!-- <li class="list-inline-item"><a class="" data-filter=".webdesign">Webdesign</a></li> -->
+            <!-- <li class="list-inline-item"><a class="" data-filter=".WORK">WORK</a></li> -->
+            <!-- <li class="list-inline-item"><a class="" data-filter=".wordpress">Wordpress</a></li> -->
+            <li class="list-inline-item">
+              <a class="" data-filter=".web">web関連</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="" data-filter=".tool">ツール</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="" data-filter=".game">ゲーム</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mt-4 work-filter">
+          <div class="col-lg-4 work_item web">
+            <a
+              href="images/works/screencapture-127-0-0-1-5500-index-html-2019-07-21-02_58_51.png"
+              class="img-zoom"
+            >
+              <div class="work_box">
+                <div class="work_img">
+                  <img
+                    src="images/works/LP1.png"
+                    class="img-fluid mx-auto d-block rounded"
+                    alt="work-img"
+                  />
                 </div>
-
-                <div class="col-lg-4 work_item game">
-                    <a href="images/works/matching-game.png" class="img-zoom">
-                        <div class="work_box">
-                            <div class="work_img">
-                                <img src="images/works/matching-game.png" class="img-fluid mx-auto d-block rounded"
-                                    alt="work-img">
-                            </div>
-                            <div class="work_detail">
-                                <p class="mb-2">Game</p>
-                                <h4 class="mb-0">Matching Game</h4>
-                            </div>
-                        </div>
-                    </a>
+                <div class="work_detail">
+                  <p class="mb-2">Web</p>
+                  <h4 class="mb-0">masatodejima.com</h4>
                 </div>
+              </div>
+            </a>
+          </div>
 
-                <div class="col-lg-4 work_item tool">
-                    <a href="images/works/flash-card.png" class="img-zoom">
-                        <div class="work_box">
-                            <div class="work_img">
-                                <img src="images/works/flash-card.png" class="img-fluid mx-auto d-block rounded"
-                                    alt="work-img">
-                            </div>
-                            <div class="work_detail">
-                                <p class="mb-2">tool</p>
-                                <h4 class="mb-0">Flash Card</h4>
-                            </div>
-                        </div>
-                    </a>
+          <div class="col-lg-4 work_item game">
+            <a href="images/works/matching-game.png" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img
+                    src="images/works/matching-game.png"
+                    class="img-fluid mx-auto d-block rounded"
+                    alt="work-img"
+                  />
                 </div>
-
-                <div class="col-lg-4 work_item web">
-                    <a href="images/works/pondriver.png" class="img-zoom">
-                        <div class="work_box">
-                            <div class="work_img">
-                                <img src="images/works/front-pondriver.png" class="img-fluid mx-auto d-block rounded"
-                                    alt="work-img">
-                            </div>
-                            <div class="work_detail">
-                                <p class="mb-2">Web関連</p>
-                                <h4 class="mb-0">Pond River</h4>
-                            </div>
-                        </div>
-                    </a>
+                <div class="work_detail">
+                  <p class="mb-2">Game</p>
+                  <h4 class="mb-0">Matching Game</h4>
                 </div>
+              </div>
+            </a>
+          </div>
 
+          <div class="col-lg-4 work_item tool">
+            <a href="images/works/flash-card.png" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img
+                    src="images/works/flash-card.png"
+                    class="img-fluid mx-auto d-block rounded"
+                    alt="work-img"
+                  />
+                </div>
+                <div class="work_detail">
+                  <p class="mb-2">tool</p>
+                  <h4 class="mb-0">Flash Card</h4>
+                </div>
+              </div>
+            </a>
+          </div>
 
-                <!-- <div class="col-lg-4 work_item wordpress WORK webdesign">
+          <div class="col-lg-4 work_item web">
+            <a href="images/works/pondriver.png" class="img-zoom">
+              <div class="work_box">
+                <div class="work_img">
+                  <img
+                    src="images/works/front-pondriver.png"
+                    class="img-fluid mx-auto d-block rounded"
+                    alt="work-img"
+                  />
+                </div>
+                <div class="work_detail">
+                  <p class="mb-2">Web関連</p>
+                  <h4 class="mb-0">Pond River</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- <div class="col-lg-4 work_item wordpress WORK webdesign">
                         <a href="images/works/4.jpg" class="img-zoom">
                             <div class="work_box">
                                 <div class="work_img">
@@ -462,8 +525,8 @@
                             </div>
                         </a>
                     </div> -->
-            </div>
         </div>
+      </div>
     </section>
     <!--END WORK -->
 
@@ -535,20 +598,21 @@
         </section> -->
     <!-- END BLOG -->
 
-
     <!-- START CONTACT -->
     <section class="section bg-light" id="contact">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h2><span class="font-weight-bold">Contact</span> Me</h2>
-                        <p class="text-muted mx-auto section-subtitle mt-3">お仕事のご依頼やご質問等お気軽にご連絡下さい。</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <h2><span class="font-weight-bold">Contact</span> Me</h2>
+              <p class="text-muted mx-auto section-subtitle mt-3">
+                お仕事のご依頼やご質問等お気軽にご連絡下さい。
+              </p>
             </div>
-            <div class="row mt-5">
-                <!-- <div class="col-lg-4">
+          </div>
+        </div>
+        <div class="row mt-5">
+          <!-- <div class="col-lg-4">
                         <div class="text-center">
                             <div>
                                 <i class="mbri-mobile2 text-custom h1"></i>
@@ -559,18 +623,20 @@
                             </div>
                         </div>
                     </div> -->
-                <div class="col-12">
-                    <div class="text-center">
-                        <div>
-                            <i class="mbri-letter text-custom h1"></i>
-                        </div>
-                        <div class="mt-3">
-                            <h5 class="mb-0 contact_detail-title font-weight-bold">Email Me At</h5>
-                            <p class="text-muted">masatodejima@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4">
+          <div class="col-12">
+            <div class="text-center">
+              <div>
+                <i class="mbri-letter text-custom h1"></i>
+              </div>
+              <div class="mt-3">
+                <h5 class="mb-0 contact_detail-title font-weight-bold">
+                  Email Me At
+                </h5>
+                <p class="text-muted">masatodejima@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-4">
                         <div class="text-center">
                             <div>
                                 <i class="mbri-pin text-custom h1"></i>
@@ -581,79 +647,116 @@
                             </div>
                         </div>
                     </div> -->
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-12">
-                    <div class="form-kerri contact_form">
-                        <div id="message"></div>
-                        <form method="post" action="php/contact.php" name="contact-form" id="working_form">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group mt-2">
-                                        <input name="name" id="name" type="text" class="form-control"
-                                            placeholder="Your name...">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group mt-2">
-                                        <input name="email" id="email" type="email" class="form-control"
-                                            placeholder="Your email...">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2">
-                                        <input type="text" class="form-control" id="subject"
-                                            placeholder="Your Subject.." />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2">
-                                        <textarea name="comments" id="comments" rows="4" class="form-control"
-                                            placeholder="Your message..."></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 text-right">
-                                    <input type="submit" id="submit" name="send"
-                                        class="submitBnt btn btn-custom text-uppercase" value="Submit">
-                                    <div id="simple-msg"></div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
         </div>
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div class="form-kerri contact_form">
+              <div id="message"></div>
+              <form
+                method="post"
+                action="php/contact.php"
+                name="contact-form"
+                id="working_form"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group mt-2">
+                      <input
+                        name="name"
+                        id="name"
+                        type="text"
+                        class="form-control"
+                        placeholder="Your name..."
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group mt-2">
+                      <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        class="form-control"
+                        placeholder="Your email..."
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Your Subject.."
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <textarea
+                        name="comments"
+                        id="comments"
+                        rows="4"
+                        class="form-control"
+                        placeholder="Your message..."
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 text-right">
+                    <input
+                      type="submit"
+                      id="submit"
+                      name="send"
+                      class="submitBnt btn btn-custom text-uppercase"
+                      value="Submit"
+                    />
+                    <div id="simple-msg"></div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- END CONTACT -->
 
     <!--START FOOTER-->
     <footer class="footer bg-light">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-12">
-                    <div class="text-center text-white footer-alt">
-                        <ul class="list-unstyled list-inline mb-3">
-                            <!-- <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook text-muted"></i></a></li>
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-12">
+            <div class="text-center text-white footer-alt">
+              <ul class="list-unstyled list-inline mb-3">
+                <!-- <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook text-muted"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="mdi mdi-linkedin text-muted"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="mdi mdi-pinterest text-muted"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter text-muted"></i></a></li> -->
-                            <li class="list-inline-item"><a href="https://github.com/masatodejima0413"
-                                    target="_blank"><i class="mdi mdi-github-box text-muted"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook text-muted"></i></a>
-                            </li>
-                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter text-muted"></i></a></li>
-                        </ul>
-                        <p class="text-muted mb-0">&copy; Copyright | masatodejima All Right Reserved</p>
-                    </div>
-                </div>
+                <li class="list-inline-item">
+                  <a href="https://github.com/masatodejima0413" target="_blank"
+                    ><i class="mdi mdi-github-box text-muted"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="mdi mdi-facebook text-muted"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="mdi mdi-twitter text-muted"></i></a>
+                </li>
+              </ul>
+              <p class="text-muted mb-0">
+                &copy; Copyright | masatodejima All Right Reserved
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </footer>
     <!--END FOOTER-->
 
@@ -677,6 +780,5 @@
     <script src="js/owl.carousel.min.js"></script>
     <!--CUSTOM JS-->
     <script src="js/custom.js"></script>
-</body>
-
+  </body>
 </html>
